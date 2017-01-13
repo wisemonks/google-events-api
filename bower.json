@@ -1,0 +1,22 @@
+{
+  "name": "google-events-api",
+  "description": "Helps you to integrate google events API using JavaScript",
+  "main": [
+    "gapi.js"
+  ],
+  "authors": [
+    "Danielius Visockas"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "google",
+    "events",
+    "api",
+  ],
+  "homepage": "https://github.com/wisemonks/google-events-api",
+  "private": false,
+  "ignore": [
+    "**/.*",
+    "README.md"
+  ]
+}
