@@ -1,8 +1,8 @@
 /**
  * Initial setup
  */
-var CLIENT_ID = '781773004014-s85bebgsdhf5o4c7tgcsudrkj3bvsuvm.apps.googleusercontent.com';
-var GOOGLE_API_KEY = 'AIzaSyBeQkYyorom6yYQnCPH0JOw_j1LukUfHZg';
+var CLIENT_ID = '';
+var GOOGLE_API_KEY = '';
 var SCOPES = ['https://www.googleapis.com/auth/calendar', 'https://www.googleapis.com/auth/gmail.readonly'];
 var GOOGLE = GOOGLE || {};
 
