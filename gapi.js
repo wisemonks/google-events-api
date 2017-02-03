@@ -82,7 +82,7 @@ GOOGLE.getMails = function() {
  */
 GOOGLE.getMail = function(id) {
   var q = new Promise(function(resolve, reject) {
-    GOOGLE.gmail('messages', 'get', {userId: 'me', id}).then(function(message) {
+    GOOGLE.gmail('messages', 'get', {userId: id}).then(function(message) {
       function findProperty(prop) {
         return message.payload.headers.filter(function(val) {
           return val.name === prop
